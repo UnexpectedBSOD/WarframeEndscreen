@@ -1,0 +1,17 @@
+<html>
+
+<head>
+</head>
+
+<body onload="showResults()">
+    <span id="display"></span>
+    <script>
+    function showResults() {
+        ele = document.getElementById("display");
+        ele.innerHTML = "Hello " + player_status.name + " of clan " + player_status.clan + "!<br>";
+        ele.innerHTML += "Congrats on completing " + mission_status.name + " (difficulty: " + mission_status.difficulty + ")!<br>";
+    }
+    </script>
+</body>
+
+</html>
